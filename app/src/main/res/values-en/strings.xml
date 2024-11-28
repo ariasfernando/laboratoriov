@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Finance Manager</string>
+<string name="label_monto">Enter amount</string>
+<string name="label_metodo">Enter payment method</string>
+<string name="label_tarjeta">Credit card</string>
+<string name="label_cuenta">Bank account</string>
+<string name="label_button_agregar">Add</string>
+<string name="label_button_modificar">Modify</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Finance Manager</string>
+    <string name="label_monto">Ingrese monto</string>
+    <string name="label_metodo">Ingrese método de pago</string>
+    <string name="label_tarjeta">Tarjeta de crédito</string>
+    <string name="label_cuenta">Cuenta bancaria</string>
+    <string name="label_button_agregar">Agregar</string>
+    <string name="label_button_modificar">Modificar</string>
+</resources>

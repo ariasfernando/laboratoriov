@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTitulo"
+                android:text="Finance Manager" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtMonto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_monto"/>
+
+        <EditText
+            android:id="@+id/editMonto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="$0" />
+
+        <TextView
+            android:id="@+id/txtMetodoPago"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_metodo"/>
+
+        <RadioGroup
+            android:id="@+id/paymentMethodGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/creditCardOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_tarjeta" />
+
+            <RadioButton
+                android:id="@+id/bankAccountOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_cuenta" />
+
+        </RadioGroup>
+        <Button
+            android:id="@+id/btnAgregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_button_agregar" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
